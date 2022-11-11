@@ -1,4 +1,64 @@
-.test {
-    font-size: 44px;
-    color: pink;
+body {
+    font-family: 'Roboto Flex', sans-serif;
+
+}
+
+
+
+.main-title {
+    font-size: 200px;
+    line-height: 180px;
+    font-weight: 900;
+}
+
+
+.main-content {
+    display: flex;
+}
+
+.sidebar-block {
+    width: 43%;
+    position: fixed;
+    border-style: solid;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right-width: 1px;
+}
+.second-block {
+    margin-left: 55%;
+    font-weight: 100;
+    line-height: 24px;
+    font-size: 24px;
+    margin-top: 15%;
+    width: 100%;
+    
+}
+
+.text-title {
+    
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 28px;
+    
+}
+
+
+.text-text {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 24px;
+}
+
+.text {
+    border: solid;
+    border-width: 1px;
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+    margin: 30px 0 0 0;
+}
+.text-link {
+    text-decoration: none;
+    color: #000;
 }
