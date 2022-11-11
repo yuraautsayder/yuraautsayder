@@ -27,6 +27,7 @@ body {
     border-left: none;
     border-right-width: 1px;
     height: 100%;
+    padding-right: 30px;
 }
 .second-block {
     margin-left: 50%;
@@ -38,7 +39,7 @@ body {
 }
 
 .text-title {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 20px;
     margin-bottom: 10px;
@@ -46,7 +47,7 @@ body {
 
 
 .text-text {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 100;
     line-height: 20px;
 }
@@ -63,4 +64,7 @@ body {
 .text-link {
     text-decoration: none;
     color: #000;
+}
+.main-title-bold {
+    font-weight: 900;
 }
